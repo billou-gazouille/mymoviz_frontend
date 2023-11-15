@@ -13,7 +13,7 @@ function Home() {
 
   useEffect(() => {
     //fetch('http://localhost:3000/movies')
-    fetch('https://mymoviz-backend-eight-nu.vercel.app/movies')
+    fetch('https://mymoviz-backend-alpha-ten.vercel.app/movies')
       .then(resp => resp.json())
       .then(data => {
         console.log(data);
